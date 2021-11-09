@@ -16,7 +16,7 @@ namespace upg_1
 
             double a4Area = ((0.210) * (0.297));
 
-            Console.WriteLine((c4*c4Area) + (a3*a3Area) + (a4*a4Area) + "gram");
+            Console.WriteLine("Vikt: " + ((c4*c4Area) + (a3*a3Area) + (a4*a4Area)) + " gram");
             
         }
     }
