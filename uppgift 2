@@ -1,0 +1,16 @@
+using System;
+
+namespace upg_2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string b = Console.ReadLine(); 
+            char[] a = b.ToCharArray();
+            Array.Reverse(a);
+
+            Console.WriteLine(a);
+        }
+    }
+}
