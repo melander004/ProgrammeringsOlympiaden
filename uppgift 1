@@ -1,0 +1,23 @@
+using System;
+
+namespace upg_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int c4 = int.Parse(Console.ReadLine());
+            int a3 = int.Parse(Console.ReadLine());
+            int a4 = int.Parse(Console.ReadLine()); 
+
+            double c4Area = ((0.229) * (0.324)*2);
+
+            double a3Area = ((0.297) * (0.420)*2);
+
+            double a4Area = ((0.210) * (0.297));
+
+            Console.WriteLine((c4*c4Area) + (a3*a3Area) + (a4*a4Area));
+            
+        }
+    }
+}
