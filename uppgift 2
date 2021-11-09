@@ -10,7 +10,21 @@ namespace upg_2
             char[] a = b.ToCharArray();
             Array.Reverse(a);
 
-            Console.WriteLine(a);
+            string[] ord = b.Split(" ");
+
+            if(b.Length <= 0){
+                Console.WriteLine("Minst 1 ord");
+            }
+
+            else if(ord.Length > 5){
+                Console.WriteLine("Max 5 ord");
+            }
+
+            else
+            {
+                Console.WriteLine(a);
+            }
+
         }
     }
 }
