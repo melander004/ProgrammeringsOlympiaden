@@ -20,8 +20,7 @@ namespace upg_2
                 Console.WriteLine("Max 5 ord");
             }
 
-            else
-            {
+            else{
                 Console.WriteLine(a);
             }
 
